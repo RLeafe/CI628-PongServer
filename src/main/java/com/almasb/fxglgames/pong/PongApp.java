@@ -135,6 +135,7 @@ public class PongApp extends GameApplication implements MessageHandler<String> {
         vars.put("player2score", 0);
     }
 
+    //test
     @Override
     protected void initGame() {
         Writers.INSTANCE.addTCPWriter(String.class, outputStream -> new MessageWriterS(outputStream));
